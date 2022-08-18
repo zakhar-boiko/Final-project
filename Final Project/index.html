@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Final project</title>
+</head>
+<body>
+    <div class="loading-animation">
+        <h1 class="loading-animation__title">Loading</h1>
+        <div class="loading-animation__loader">
+            <div class="loading-animation__circle_big"></div>
+            <div class="loading-animation__square"></div>
+            <div class="loading-animation__circle_small"></div>
+        </div>
+        <div class="loading-animation__progress"></div>
+    </div>
+    <header class="header">
+        <a class="header__logo" href="#slider"></a>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__item"><a href="#about" class="header__link">About me</a></li>
+                <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
+                <li class="header__item"><a href="#blog" class="header__link">My blog</a></li>
+                <li class="header__item"><a href="#contacts" class="header__link">Contact me</a></li>
+            </ul>
+        </nav>
+        <input type="checkbox" class="header__theme-changer" id="theme-changer">
+        <label for="theme-changer" class="header__theme-label">
+            <div class="header__ball"></div>
+        </label>
+    </header>
+    <div class="progressbar">
+        <div class="progressbar__current-progress"></div>
+    </div>
+    <section class="slider-section">
+        <div class="container">
+            <h1 id="slider" class="slider-section__title">Retro</h1>
+            <div class="slider-section__ribbon ">
+                <span class="slider-section__ribbon-caption caption">Old style portfolio</span> 
+            </div>
+            <div class="slider-section__slider">
+                <div class="slider-section__image-cover">
+                    <ul class="slider-section__slides">
+                        <li data-isactive class="slider-section__slide-item">
+                            <img src="./images/slider-section/hobby 01.jpg" class="slider-section__image">
+                        </li>
+                        <li class="slider-section__slide-item">
+                            <img src="./images/slider-section/hobby 02.jpeg" class="slider-section__image">
+                        </li>
+                        <li class="slider-section__slide-item">
+                            <img src="./images/slider-section/hobby 03.jpg" class="slider-section__image">
+                        </li>
+                        <li class="slider-section__slide-item">
+                            <img src="./images/slider-section/hobby 04.jpg" class="slider-section__image">
+                        </li>
+                        <li class="slider-section__slide-item">
+                            <img src="./images/slider-section/hobby 05.jpg" class="slider-section__image">
+                        </li>
+                    </ul>
+                    <button data-buttonAction="back" slider-button class="slider-section__button_previous"></button>
+                    <button data-buttonAction="forward" slider-button class="slider-section__button_next"></button>
+                </div>
+              <span class="slider-section__slider-caption caption">Kodak camera</span>
+            </div>
+            <div class="slider-section__subtitle">"Hello, i am John Doe <br> Welcome to retro, my wonderful theme!”</div>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="container">
+            <h1 id="about" class="about-section__title title">About me</h1>
+            <span class="about-section__separator separator">×××</span>
+            <span class="about-section__subtitle subtitle">I am a graphic designer from Baltimore</span>
+            <div class="about-section__interests-columns">
+                <div class="about-section__interest">
+                    <div class="about-section__movie-logo about-section__logo"></div>
+                    <h2 class="about-section__interest-title">Movies</h2>
+                    <span class="about-section__interest-subtitle">What i watch</span>
+                    <p class="about-section__interest-description">Clutter is honest! I do believe that has to the users
+                        selfexpression. Care. Things which is a projector operating system such formats are deep and profound and meaningful. It's the traditions of data. Good design should be different levels. There's no rational alternative. That's come to complexity.</p>
+                </div>
+                <div class="about-section__interest">
+                    <div class="about-section__music-logo about-section__logo"></div>
+                    <h2 class="about-section__interest-title">Music</h2>
+                    <span class="about-section__interest-subtitle">What i listen</span>
+                    <p class="about-section__interest-description">Good design. The content, you'll love powerpoint should be different. It's about design is that part? Good design is making something looks. And aesthetic. And colour defines your interface. That cannot be overtly different. That has to chance. And restrained, low resolution, but you get rid of materials.</p>
+                </div>
+                <div class="about-section__interest">
+                    <div class="about-section__clothes-logo about-section__logo"></div>
+                    <h2 class="about-section__interest-title">Clothes</h2>
+                    <span class="about-section__interest-subtitle">What i wear</span>
+                    <p class="about-section__interest-description">Very honest approach and product. The other product that changes function like the absence of function. And frustrating that products that it's the functional imperative, we kept going and frustrating that we are about bringing order to be better and less complicated to
+                        understand.</p>
+                </div>
+                <div class="about-section__interest">
+                    <div class="about-section__food-logo about-section__logo"></div>
+                    <h2 class="about-section__interest-title">Food</h2>
+                    <span class="about-section__interest-subtitle">What i eat</span>
+                    <p class="about-section__interest-description">Simplicity. Its context. From so many different levels. There's real simplicity is. Designing and place of the objects we're surrounded by seem trivial. There's no rational alternative. I think that's a very complicated problems without letting people have a very easy to mean so much that acknowledges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio-section">
+        <div class="container">
+        <h1 id="portfolio" class="portfolio-section__title title">Portfolio</h1>
+        <span class="portfolio-section__separator separator">×××</span>
+        <span class="portfolio-section__subtitle subtitle">Simplicity is the ultimate sophistication</span>
+        <div class="portfolio-section__projects-viewer">
+            <div class="portfolio-section__filter-menu">
+                <span class="portfolio-section__filter-by">Filter by</span>
+                <div class="portfolio-section__filter-list">
+                    <button data-filter="my" class="portfolio-section__filter-item">my</button>
+                    <button data-filter="recent" class="portfolio-section__filter-item">recent</button>
+                    <button data-filter="free" class="portfolio-section__filter-item">free</button>
+                    <button data-filter="logo" class="portfolio-section__filter-item">logo</button>
+                    <button data-filter="subscription" class="portfolio-section__filter-item">subscription</button>
+                    <button data-filter="small" class="portfolio-section__filter-item">small</button>
+                    <button data-filter="medium" class="portfolio-section__filter-item">medium</button>
+                    <button data-filter="large" class="portfolio-section__filter-item">large</button>
+                </div>
+             </div>
+            <div class="portfolio-section__projects">
+        </div>
+        <button class="portfolio-section__browse-all browse-all-button">Browse all</button>
+        </div>
+    </section>
+    <section class="blog-section">
+        <div class="container">
+            <h1 id="blog" class="blog-section__title title">My blog</h1>
+            <span class="blog-section__separator separator">×××</span>
+            <span class="blog-section__subtitle subtitle">News from my house</span>
+            <div class="blog-section__articles">
+                <div class="blog-section__article">
+                    <div class="blog-section__article-image">
+                        <div class="blog-section__image-cover"></div>
+                    </div>
+                    <div class="blog-section__main-content">
+                        <h2 class="blog-section__caption">The Magic Wheel</h2>
+                        <span class="blog-section__responses">1 response</span>
+                        <span class="blog-section__article-details">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS</span>
+                        <p class="blog-section__text">If you’ve studied design at all, you’ve probably encountered Losajfa;idad sadsadsib fwehbfefwe sd ds ds. <i>(more...)</i></p>
+                    </div>
+                </div>
+                <div class="blog-section__article">
+                    <div class="blog-section__article-image">
+                        <div class="blog-section__image-cover"></div>
+                    </div>
+                    <div class="blog-section__main-content">
+                        <h2 class="blog-section__caption">The lonely road</h2>
+                        <span class="blog-section__responses">3 responses</span>
+                        <span class="blog-section__article-details">JULY 28, 2014 // ADMIN // FUN, TRAVEL, TRENDS, WEB DESIGN</span>
+                        <p class="blog-section__text">It’s not it to understand them in the objects we’re playing. Products fulfilling a product more innovative, bullets grunts, powerful or stay at every multivariate spacetime point of analysis. People have enormous serial correlation. Good design is derived from so deep and then there’s no other product useful <i>(more...)</i></p>
+                    </div>   
+                </div>
+                <div class="blog-section__article">
+                    <div class="blog-section__article-image">
+                        <div class="blog-section__image-cover"></div>
+                    </div>
+                    <div class="blog-section__main-content">
+                        <h2 class="blog-section__caption">I love gasoline smell</h2>
+                        <span class="blog-section__responses">No responses</span>
+                        <span class="blog-section__article-details">JULY 28, 2014 // ADMIN // FUN, TRENDS, WEB DESIGN</span>
+                        <p class="blog-section__text">Many of the content, and often about their precious turfpossessed selves and principles are shortcomings of seeing and colors to cover up a paucity of design. Zero out your interface. I think that are deep and profound indeed, these tasks and showing. <i>(more...)</i></p>
+                    </div>   
+                </div>
+            </div> 
+            <button class="blog-section__show-all browse-all-button">Show all posts</button>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <h1 id="contacts" class="contact-section__title title">Contact me</h1>
+            <span class="contact-section__separator separator">×××</span>
+            <span class="contact-section__subtitle subtitle">I'll be glad to answer your questions!</span>
+            <form action="" name="contact-form" class="contact-section__form">
+                <input type="text" class="contact-section__input" placeholder="Name" name="name" required>
+                <input type="email" class="contact-section__input" placeholder="Email adress" name="email" required>
+                <input type="text" class="contact-section__input" placeholder="Subject" name="subject" required>
+                <textarea placeholder="Your message" class="contact-section__message"  name="message"></textarea>
+                <input type="submit" value= "Send Message" class="contact-section__submit-button">
+            </form>
+            <footer class="contact-section__footer">
+                <h2 class="contact-section__footer-title">I am social</h2>
+                <div class="contact-section__social-links">
+                    <a target="_blank" href="https://twitter.com/ZaharBojko2" class="contact-section__link">
+                        <img src="../images/contact-section/twitter_icon.png" alt="twitter_icon" class="contact-section__link_icon">
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/zakhar.boyko.9/" class="contact-section__link ">
+                        <img src="../images/contact-section/facebook_icon.png" alt="facebook_icon" class="contact-section__link_icon">
+                    </a>
+                    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox" class="contact-section__link">
+                        <img src="../images/contact-section/google_icon.png" alt="gmail_icon" class="contact-section__link_icon">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/zakharboiko1704/" class="contact-section__link">
+                        <img src="../images/contact-section/pinterest_icon.png" alt="pinterest_icon" class="contact-section__link_icon">
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/" class="contact-section__link">
+                        <img src="../images/contact-section/linkendin_icon.png" alt="linkedin_icon" class="contact-section__link_icon">
+                    </a>
+                </div>
+            </footer>
+    </section>
+    <script src="./scripts/script.js" ></script>
+    <!-- <script src="./scripts/loading.js"></script> -->
+</body>
+</html>

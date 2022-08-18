@@ -1,0 +1,20 @@
+{
+    "projects": [
+      {"name":"Landing page","date":"2022-05-16","technologies":"HTML, CSS","price":"0","preview":"../images/portfolio-section/landing-page.png","icon":"url('../images/portfolio-section/picture-icon.png')", "size": "small","subscription": false,"my": true, "logo":false,"free":true},
+
+      {"name":"Final project","date":"2022-08-10","technologies":"HTML, CSS, JS","price":"0","preview":"../images/portfolio-section/final-project.png","icon":"url('../images/portfolio-section/tv-icon.png')", "size": "small","subscription": false,"my": true, "logo":true,"free":true},  
+
+      {"name":"Google","date":"1998-09-04","technologies":"HTML, CSS, JQuery","price":"100 000 000","preview":"../images/portfolio-section/google-page.png","icon":"url('../images/portfolio-section/sound-icon.png')", "size": "large","subscription": false,"my": false, "logo":true, "free":false},
+
+      {"name":"YouTube","date":"2005-02-14","technologies":"MySQL, PHP, HTML","price":"180 000 000","preview":"../images/portfolio-section/youtube-page.png","icon":"url('../images/portfolio-section/document-icon.png')", "size": "large","subscription": true,"my": false, "logo":true,"free":false},
+
+      {"name":"Netflix","date":"1997-08-29","technologies":"MySQL, PHP, HTML","price":"180 000 000","preview":"../images/portfolio-section/netflix-page.jpg","icon":"url('../images/portfolio-section/tv-icon.png')", "size": "large","subscription": true,"my": false, "logo":true,"free":false},
+
+      {"name":"Sigma Software","date":"2002-02-14","technologies":"HTML, CSS, NodeJS","price":"180 000","preview":"../images/portfolio-section/sigma-page.png","icon":"url('../images/portfolio-section/clip-icon.png')", "size": "medium","subscription": false,"my": false, "logo":true,"free":false},
+
+      {"name":"Apple","date":"1997-11-10","technologies":"HTML, CSS, JQuery","price":"0","preview":"../images/portfolio-section/apple-page.jpg","icon":"url('../images/portfolio-section/picture-icon.png')", "size": "large","subscription": false,"my": false, "logo":true, "free":true},
+
+      {"name":"McDonalds","date":"2005-08-09","technologies":"HTML, CSS, JQuery","price":"500 000","preview":"../images/portfolio-section/mcdonalds-page.jpeg","icon":"url('../images/portfolio-section/sound-icon.png')", "size": "large","subscription": false,"my": false, "logo":true, "free":false}
+    ]
+      
+}
